@@ -1,0 +1,368 @@
+
+body {
+    font-family: 'Lato', sans-serif;  
+  }
+  /*Navbar*/
+  .navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    display: block;
+    box-shadow: 0 0 2px rgba(100, 100, 100, 0.3);
+}
+
+.social{
+    font-size: 140%;
+    color: rgb(231, 0, 0) !important;
+    margin-top: 0.3rem;
+
+}
+.nav-item{
+    font-size:16px;
+}
+#fb{
+    margin-left: 2rem;
+}
+
+.navbar a{
+    color: black !important;
+}
+
+
+.dropdown-menu{
+    text-align: center;
+
+}
+.nav-link{
+    font-size: 130%;
+}
+/*Showcase Section*/
+.showcase{
+    background: url(../imgs/landing5.jpeg) ;
+    width: 100%;
+    height: auto;
+    min-height: 750px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 0 0 450px 0;    
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#slogan{
+    padding-top: 13rem;
+    font-size: 50px;
+    padding-bottom: 1.5rem;
+    max-width: 650px;
+
+}
+
+
+#disc{
+    max-width: 450px;
+    line-height: 2;
+
+
+}
+.btn{
+    color: white;
+    background: rgb(216, 1, 1) !important;
+    box-shadow:2px 2px 12px black;
+    border-radius: 30px;
+    padding: 15px 30px;    
+    font-size: 18px;
+    width: 180px;
+    margin-top: 0.5rem;
+    border: none;
+    border-color: black;
+    outline:none;  
+    text-shadow: none !important;
+}
+
+.btn:hover{
+    background-color: rgb(170, 6, 6) !important;
+    color: white;
+}
+
+
+/*About Section*/
+#about{
+    padding-top: 90px;
+    margin-top: -50px;
+    padding-bottom: 1.5rem;
+    color: rgb(51, 51, 51);
+
+
+
+
+}
+.laptop{
+    width: 100%;
+    max-width: 600px;
+    max-height: 380px;
+    margin-top: 2rem;
+
+    }
+
+.header{
+    margin-top: 2rem;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 58px;
+    margin-bottom: 20px;
+    color: #666;
+
+
+}
+
+
+.fa-phone{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/*Choose Us Section*/
+
+.fas{
+    font-size: 25px;
+    margin-top:2rem;
+    margin-bottom: 1rem;
+    
+}
+
+.fas span{
+    font-family: 'Lato', sans-serif;
+}
+.discp{
+    margin-right: 9rem;
+    margin-left: 9rem;
+    text-align: center;
+    color: rgb(117, 117, 117);
+
+
+}
+#about p{
+    color: #666;
+    font-weight: 400;
+
+}
+
+#head{
+    margin-bottom: 2rem;
+}
+
+.content{
+    margin-bottom: 4rem;
+    color: rgb(100, 100, 100);
+}
+
+section{
+    margin-bottom: 8rem;
+}
+
+
+.icons{
+    color: #666 !important; 
+}
+
+/*stats section*/
+
+
+.heads{
+    font-size: 24px !important;
+}
+#stats{
+    padding-top:5rem;
+    padding-bottom:5rem;
+    border-radius: 0 0 450px 450px;    
+
+
+}
+
+.count{
+    font-size: 40px;
+}
+
+/*Booking section*/
+
+#bookbtn{
+    border-radius: 5px;
+    margin-top: 0;
+}
+
+.headerfix{
+    color: rgb(100, 100, 100);
+
+}
+
+/*Contact section*/
+
+#formheader{
+    color: rgb(100, 100, 100);
+}
+
+footer p{
+    color: rgb(187, 187, 187);
+    font-size: 80%;
+}
+.footicon{
+    margin-bottom: 2rem;
+    color: rgb(189, 189, 189) !important;
+
+
+}
+#choose{
+    padding-top: 50px;
+    margin-top: -50px;
+
+}
+#team{
+    padding-top: 50px;
+    margin-top: -50px;
+
+}
+#contact{
+    padding-top: 90px;
+    margin-top: -50px;
+
+}
+
+#subbtn{
+    margin-top: 1.5rem;
+}
+
+/*Thank You*/
+
+.thank{
+    background: url(../imgs/thank.png) ;
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 0 0 450px 0;    
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#thankhead{
+    padding-top: 13rem;
+    font-size: 60px;
+    padding-bottom: 1.5rem;
+    margin-left: 5rem;
+
+}
+
+#thankdisc{
+    max-width: 600px;
+    margin-left: 6rem;
+}
+
+.Info{
+    max-width: 600px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    color: rgb(155, 155, 155) !important;
+
+}
+
+.thank2{
+    color: rgb(100, 100, 100);
+}
+/*Media Queries*/
+
+@media (max-width:600px){
+    .showcase {
+        text-align: center;
+        height: 90vh;   
+        min-height: 900px;
+ 
+        
+}
+    .thank{
+        text-align: center;
+        height: 65vh;   
+        min-height: 600px;
+    }
+
+    #thankhead{
+        margin: auto;
+    }
+
+    #thankdisc{
+        margin: auto;
+    }
+.discp{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+
+.content{
+    margin-bottom: 2rem;
+}
+
+
+
+#about , #choose, .centry{
+    text-align: center;
+}
+
+.foot{
+    margin-bottom: 2rem;
+}
+}
+
+.footicon{
+    font-size:60px;
+}
+
+
+@media (max-width:1000px){
+    .discp{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .social{
+        display: none;
+    }
+    .thank{
+        border-radius: 0 0 250px 0;
+
+    }
+
+}
+@media (max-width:768px){
+    .title{
+        margin-bottom: 2rem;
+    }
+    .centry{
+        text-align: center;
+    }
+
+    .showcase{
+        border-radius: 0 0 150px 0;
+    }
+    .thank{
+        border-radius: 0 0 150px 0;
+
+    }
+}
+
+@media (max-width:1200px){
+    #pricetag{
+        padding-bottom: 2rem !important;
+    }
+
+}
